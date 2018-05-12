@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', [
     'as'    =>  'home',
     'uses'  =>  'RouteController@home'
@@ -25,3 +26,4 @@ Route::get('/contact', [
     'as'    =>  'contact',
     'uses'  =>  'RouteController@contact'
 ]);
+
