@@ -32,8 +32,8 @@
 
 <body>
 
-<div class="brand">BELSOFT &trade;</div>
-<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+<div class="brand">BELSOFT&trade;</div>
+<div class="address-bar">Web Design | Web Development | Graphic Design</div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -47,7 +47,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="{{route('home')}}">Business Casual</a>
+            <a class="navbar-brand" href="{{route('home')}}">BELSOFT&trade;</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

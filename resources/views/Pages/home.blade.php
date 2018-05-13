@@ -42,11 +42,11 @@
                 <h2 class="brand-before">
                     <small>Welcome to</small>
                 </h2>
-                <h1 class="brand-name">Business Casual</h1>
+                <h1 class="brand-name">BELSOFT&TRADE;</h1>
                 <hr class="tagline-divider">
                 <h2>
-                    <small>By
-                        <strong>Start Bootstrap</strong>
+                    <small>Your problem is
+                        <strong>Solved</strong> !
                     </small>
                 </h2>
             </div>

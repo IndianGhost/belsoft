@@ -45,24 +45,25 @@
                     </h2>
                     <hr>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
-                    <form role="form">
+                    <form action="{{route('createLead')}}" method="post" role="form">
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Name</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="name"/>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" name="email" required/>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control">
+                                <input type="tel" class="form-control" name="phone" required/>
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label>Message</label>
-                                <textarea class="form-control" rows="6"></textarea>
+                                <textarea class="form-control" rows="6" name="message" required></textarea>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="save" value="contact">

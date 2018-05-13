@@ -27,3 +27,7 @@ Route::get('/contact', [
     'uses'  =>  'RouteController@contact'
 ]);
 
+Route::post('/lead', [
+    'as'    =>  'createLead',
+    'uses'  =>  'LeadController@create'
+]);
