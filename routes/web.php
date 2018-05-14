@@ -22,6 +22,11 @@ Route::get('/about', [
     'uses'  =>  'RouteController@about'
 ]);
 
+Route::get('/blog', [
+    'as'    =>  'blog',
+    'uses'  =>  'RouteController@blog'
+]);
+
 Route::get('/contact', [
     'as'    =>  'contact',
     'uses'  =>  'RouteController@contact'
