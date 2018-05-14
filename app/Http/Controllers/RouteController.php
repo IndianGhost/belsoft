@@ -14,6 +14,10 @@ class RouteController extends Controller
         return view('Pages.about');
     }
 
+    public function blog(){
+        return view('Pages.blog');
+    }
+
     public function contact(){
         return view('Pages.contact');
     }
