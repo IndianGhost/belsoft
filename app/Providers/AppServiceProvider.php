@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace belsoft\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

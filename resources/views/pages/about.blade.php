@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.frontend')
 
 @section('title')
     BELSOFT -ABOUT-

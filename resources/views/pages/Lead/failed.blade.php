@@ -1,7 +1,7 @@
-@extends('base')
+@extends('layouts.frontend')
 
 @section('title')
-    BELSOFT -Thanks-
+    BELSOFT -Failed-
 @endsection
 
 @section('container')
@@ -15,8 +15,12 @@
                         <strong>Contacting Us</strong> !
                     </h2>
                     <hr>
-                    <p>Your message was sent successfully !</p>
-                    <p>You will receive a response of your request on your mail box as soon as possible &amp; don't worry we hate spam too !</p>
+                    <p>but your message was <strong>not sent</strong> successfully, for these reasons :</p>
+                    <ul>
+                        @foreach($error as $key => $item)
+                        <li>{{$key}} : {{$item}}</li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>

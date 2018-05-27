@@ -36,3 +36,6 @@ Route::post('/lead', [
     'as'    =>  'createLead',
     'uses'  =>  'LeadController@create'
 ]);
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index')->name('adminLogin');

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace belsoft;
 
 class Lead
 {
@@ -8,6 +8,13 @@ class Lead
     private $email;
     private $phone;
     private $message;
+
+    public static $rules = [
+        'name'      =>  'required',
+        'email'     =>  'required|email',
+        'phone'     =>  'required|digits:10',
+        'message'   =>  'required'
+    ];
 
     //    constructor
     public function __construct(){}
