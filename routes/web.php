@@ -11,31 +11,16 @@
 |
 */
 
-
-Route::get('/', [
-    'as'    =>  'home',
-    'uses'  =>  'RouteController@home'
-]);
-
-Route::get('/about', [
-    'as'    =>  'about',
-    'uses'  =>  'RouteController@about'
-]);
-
-Route::get('/blog', [
-    'as'    =>  'blog',
-    'uses'  =>  'RouteController@blog'
-]);
-
-Route::get('/contact', [
-    'as'    =>  'contact',
-    'uses'  =>  'RouteController@contact'
-]);
+Route::view('/',        'pages.home')   ->name('home');
+Route::view('/about',   'pages.about')  ->name('about');
+Route::view('/blog',    'pages.blog')   ->name('blog');
+Route::view('/contact', 'pages.contact')->name('contact');
 
 Route::post('/lead', [
     'as'    =>  'createLead',
     'uses'  =>  'LeadController@create'
 ]);
+
 Auth::routes();
 
 Route::get('/admin', 'HomeController@index')->name('adminLogin');

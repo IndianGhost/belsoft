@@ -6,10 +6,10 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: linear-gradient(45deg, #2196F3, #9e9e9e7a, #2196F3) !important;
-    -webkit-background: linear-gradient(45deg, #2196F3, #9e9e9e7a, #2196F3) !important;
-    -moz-background: linear-gradient(45deg, #2196F3, #9e9e9e7a, #2196F3) !important;
-    -o-background: linear-gradient(45deg, #2196F3, #9e9e9e7a, #2196F3) !important;
+    background: linear-gradient(45deg, #1A237E, #9e9e9e7a, #455A64) !important;
+    -webkit-background: linear-gradient(45deg, #1A237E, #9e9e9e7a, #455A64) !important;
+    -moz-background: linear-gradient(45deg, #1A237E, #9e9e9e7a, #455A64) !important;
+    -o-background: linear-gradient(45deg, #1A237E, #9e9e9e7a, #455A64) !important;
     /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
